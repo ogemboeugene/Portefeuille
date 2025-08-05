@@ -49,6 +49,8 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
             src={image} 
             alt={title}
             className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+            loading="lazy"
+            decoding="async"
           />
           
           {/* Category and Status badges */}

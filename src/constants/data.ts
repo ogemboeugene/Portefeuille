@@ -12,7 +12,7 @@ export const PERSONAL_INFO = {
   github: 'github.com/ogemboeugene',
   portfolio: 'euginebrain.tech',
   linkedin: 'linkedin.com/in/eugenebrian-b91419279',
-  image: '/src/assets/DSC_2400.JPG'
+  image: '/images/DSC_2400.JPG'
 };
 
 export const CONTACT_INFO = [
@@ -67,7 +67,7 @@ export const PROJECTS = [
     ],
     github: 'https://github.com/ogemboeugene/soko-beauty',
     demo: 'https://soko-beauty-demo.com',
-    image: '/src/assets/sokobeauty.webp',
+    image: '/images/sokobeauty.webp',
     status: 'Live',
     category: 'Mobile App'
   },
@@ -86,7 +86,7 @@ export const PROJECTS = [
     ],
     github: 'https://github.com/ogemboeugene/shopokoa',
     demo: 'https://shopokoa-demo.com',
-    image: '/src/assets/shopokoa.png',
+    image: '/images/shopokoa.png',
     status: 'Live',
     category: 'E-commerce'
   },
@@ -105,7 +105,7 @@ export const PROJECTS = [
     ],
     github: 'https://github.com/ogemboeugene/mamapesa',
     demo: 'https://mamapesa-demo.com',
-    image: '/src/assets/MamaPesa.webp',
+    image: '/images/MamaPesa.webp',
     status: 'In Development',
     category: 'Fintech'
   },
@@ -124,7 +124,7 @@ export const PROJECTS = [
     ],
     github: 'https://github.com/ogemboeugene/drassy-app',
     demo: 'https://drassy-demo.com',
-    image: '/src/assets/drassy.webp',
+    image: '/images/drassy.webp',
     status: 'Beta',
     category: 'Fashion Tech'
   },
@@ -143,7 +143,7 @@ export const PROJECTS = [
     ],
     github: 'https://github.com/ogemboeugene/dev-portfolio-builder',
     demo: 'https://dev-portfolio-builder.com',
-    image: '/src/assets/devportfoliobuilder.webp',
+    image: '/images/devportfoliobuilder.webp',
     status: 'Planning',
     category: 'Developer Tools'
   },
@@ -162,7 +162,7 @@ export const PROJECTS = [
     ],
     github: 'https://github.com/ogemboeugene/healthfin',
     demo: 'https://healthfin-demo.com',
-    image: '/src/assets/healthfin.webp',
+    image: '/images/healthfin.webp',
     status: 'Live',
     category: 'HealthTech'
   }
@@ -262,21 +262,21 @@ export const TESTIMONIALS = [
     name: 'Sarah Johnson',
     role: 'Senior Developer at TechCorp',
     content: 'Eugene is an exceptional developer with a keen eye for detail. His ability to solve complex problems and deliver high-quality solutions consistently impressed our team.',
-    avatar: '/src/assets/profile.jpg'
+    avatar: '/images/profile.jpg'
   },
   {
     id: 2,
     name: 'Michael Chen',
     role: 'Project Manager at StartupXYZ',
     content: 'Working with Eugene was a fantastic experience. He delivered our project on time and exceeded our expectations with his technical expertise and communication skills.',
-    avatar: '/src/assets/profile.jpg'
+    avatar: '/images/profile.jpg'
   },
   {
     id: 3,
     name: 'Dr. Jane Doe',
     role: 'Technical Lead at Innovation Labs',
     content: 'Eugene demonstrates exceptional problem-solving skills and a deep understanding of modern web technologies. His contributions to our projects were invaluable.',
-    avatar: '/src/assets/profile.jpg'
+    avatar: '/images/profile.jpg'
   }
 ];
 

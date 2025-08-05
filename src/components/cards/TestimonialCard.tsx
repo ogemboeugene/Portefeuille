@@ -39,6 +39,8 @@ export const TestimonialCard: React.FC<TestimonialCardProps> = ({
             className="h-12 w-12 rounded-full object-cover mr-4"
             src={avatar}
             alt={name}
+            loading="lazy"
+            decoding="async"
           />
         ) : (
           <div className="h-12 w-12 rounded-full bg-gray-300 dark:bg-gray-600 mr-4 flex items-center justify-center">

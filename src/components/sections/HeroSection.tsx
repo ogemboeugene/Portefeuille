@@ -4,7 +4,6 @@ import { ArrowDownIcon, DocumentArrowDownIcon, SparklesIcon } from '@heroicons/r
 import { Container } from '../layout/Container';
 import { PERSONAL_INFO, SOCIAL_LINKS } from '../../constants/data';
 import { downloadResume, scrollToSection } from '../../utils/helpers';
-import profileImage from '../../assets/profile.jpg';
 
 export const HeroSection: React.FC = () => {
   const getSocialIcon = (iconName: string) => {
@@ -166,9 +165,10 @@ export const HeroSection: React.FC = () => {
               <div className="relative w-80 h-80 lg:w-96 lg:h-96">
                 <div className="w-full h-full rounded-full overflow-hidden border-4 border-white dark:border-dark-700 shadow-2xl group-hover:scale-105 transition-transform duration-500">
                   <img
-                    src={profileImage}
+                    src="/images/profile.jpg"
                     alt={PERSONAL_INFO.name}
                     className="w-full h-full object-cover"
+                    loading="eager"
                   />
                 </div>
                 

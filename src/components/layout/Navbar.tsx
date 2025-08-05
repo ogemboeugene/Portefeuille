@@ -3,7 +3,6 @@ import { Bars3Icon, XMarkIcon, SunIcon, MoonIcon } from '@heroicons/react/24/out
 import { useTheme } from '../../contexts/ThemeContext';
 import { Container } from './Container';
 import { scrollToSection } from '../../utils/helpers';
-import logoImage from '../../assets/logo.jpg';
 
 const navigation = [
   { name: 'Home', href: '/', section: 'home' },
@@ -33,9 +32,10 @@ export const Navbar: React.FC = () => {
           {/* Logo */}
           <div className="flex items-center space-x-2">
             <img 
-              src={logoImage} 
+              src="/images/logo.jpg" 
               alt="Eugene Brian Logo" 
               className="h-10 w-10 rounded-full object-cover"
+              loading="eager"
             />
             <span className="text-xl font-bold text-gray-900 dark:text-white">
               Eugene Brian
